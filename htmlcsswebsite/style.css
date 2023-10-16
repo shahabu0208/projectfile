@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(paolo-nicolello-2gOxKj594nM-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+img{
+    border-radius: 16px;
+
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin: 30px;
+    
+}
+
+ul li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: #fff;
+    padding: 5px 25px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+img{
+    float: left;
+    width: 150px;
+    height: 80px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.main{
+    width: 1200px;
+    margin: auto;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.titel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.titel h1{
+    color: #ffff;
+    font-size: 50px;
+}
+
+.subtitel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.subtitel h4{
+    color: #ffff;
+    font-size: 15px;
+    align-items: center;
+}
